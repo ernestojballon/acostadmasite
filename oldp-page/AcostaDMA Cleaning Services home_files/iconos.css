@@ -1,0 +1,67 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?dt7unc');
+	src:url('../fonts/icomoon.eot?#iefixdt7unc') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?dt7unc') format('woff'),
+		url('../fonts/icomoon.ttf?dt7unc') format('truetype'),
+		url('../fonts/icomoon.svg?dt7unc#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	@font-face {
+		font-family: 'icomoon';
+		src: url('../fonts/icomoon.svg#icomoon') format('svg');
+	};
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu:before {
+	content: "\e600";
+}
+
+.icon-feather:before {
+	content: "\e601";
+}
+
+.icon-home:before {
+	content: "\e602";
+}
+
+.icon-phone:before {
+	content: "\e603";
+}
+
+.icon-envelop:before {
+	content: "\e604";
+}
+
+.icon-users:before {
+	content: "\e605";
+}
+
+.icon-leaf:before {
+	content: "\e606";
+}
+
+.icon-star-full:before {
+	content: "\e607";
+}
+
+.icon-facebook2:before {
+	content: "\e608";
+}
+

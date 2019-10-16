@@ -1,0 +1,73 @@
+$primary:#007bff;
+$primary-overlay:rgba(255,255,255,0.5);
+
+body{
+    margin-top:73px;
+}
+.navbar{
+    box-shadow:2px 2px 2px 5px $primary;
+    opacity: 0.9;
+    background: #fff;
+
+    .navbar-item{
+        font-size:1.4rem;
+        padding-right: 1.4rem; 
+    }
+}
+#showcase{
+    position:relative;
+    background:url('../img/showcase.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+
+    .primary-overlay{
+        background: $primary-overlay;
+        position:absolute;
+        top:25%;
+        left:0;
+        width: 100%;
+        height: 150px;
+        
+    }
+    
+    //md
+    @media (max-width: 768px) {
+        
+        .over-div{
+        }
+        .lead {
+            margin:28% 0 auto 0;
+            font-size:22px;
+            line-height: 2;
+            font-weight: 500;
+        }
+        .display-4{
+            display:none;
+        }
+        .primary-overlay{
+            background: $primary-overlay;
+            position:absolute;
+            top:0;
+            left:0;
+            width: 100%;
+            height: 100%;
+            
+        }
+        .navbar-brand{
+            display:none;
+        }
+
+
+    }
+}
+#cards{
+    .card-img-top{
+        height: 200px;
+    }
+}
+#cards2{
+    .card-img-top{
+        height: 210px;
+    }
+}

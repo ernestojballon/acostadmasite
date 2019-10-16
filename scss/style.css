@@ -1,0 +1,31 @@
+#showcase {
+  position: relative;
+  background: url("../img/mountains.jpg");
+  min-height: 600px; }
+  #showcase .primary-overlay {
+    background: rgba(50, 146, 166, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  #showcase .over-div {
+    margin-top: 18%; }
+  #showcase img {
+    margin-top: 10%;
+    height: 500px;
+    width: 450px; }
+  @media (min-width: 576px) {
+    #showcase .over-div {
+      margin-top: 20%; } }
+  @media (min-width: 768px) {
+    #showcase .over-div {
+      margin-top: 20%; } }
+  @media (min-width: 992px) {
+    #showcase .over-div {
+      margin-top: 8%; } }
+  @media (min-width: 1200px) {
+    #showcase .overlay-text {
+      width: 600px; }
+    #showcase .over-div {
+      margin-top: 10%; } }
